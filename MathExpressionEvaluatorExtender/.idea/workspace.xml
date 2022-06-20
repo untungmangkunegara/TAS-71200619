@@ -40,7 +40,7 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Maven.MathExpressionEvaluatorExtender [package]">
+  <component name="RunManager" selected="Application.Unnamed">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="MathExpressionEvaluatorExtender" />
@@ -112,7 +112,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655698122378</updated>
-      <workItem from="1655698123813" duration="2658000" />
+      <workItem from="1655698123813" duration="3002000" />
     </task>
     <servers />
   </component>

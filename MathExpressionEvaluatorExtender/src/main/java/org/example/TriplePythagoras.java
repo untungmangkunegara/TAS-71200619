@@ -4,7 +4,6 @@ public class TriplePythagoras extends TernaryOperator {
     public TriplePythagoras(Node n, Node n2, Node n3) {
         super(n, n2, n3);
     }
-
     @Override
     public double hitung() {
         if ( ( this.getNode3().hitung()*this.getNode3().hitung() )

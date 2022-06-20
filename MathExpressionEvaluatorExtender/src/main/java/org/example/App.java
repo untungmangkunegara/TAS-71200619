@@ -1,7 +1,6 @@
 package org.example;
 public class App {
     public static void main( String[] args ) {
-
             // Penjumlahan
             OperandNode on1 = new OperandNode(5);
             OperandNode on2 = new OperandNode(6);
