@@ -42,7 +42,6 @@ public class Playlist {
         return songs.size();
     }
 
-
     public String totalTime() {
         for(int i = 0; i < songs.size(); i++) {
             this.count += songs.get(i).getLength();
@@ -50,6 +49,5 @@ public class Playlist {
         String waktu = String.valueOf(count);
         return "Total waktu ["+getPlaylistName()+"] = "+waktu;
     }
-
 }
 
