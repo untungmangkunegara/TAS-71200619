@@ -4,7 +4,6 @@ public class App {
             // Penjumlahan
             OperandNode on1 = new OperandNode(5);
             OperandNode on2 = new OperandNode(6);
-
             OperatorNode ov1 = new Tambah(on1,on2);
             System.out.println(ov1.hitung());
             //(5+6) = 11
