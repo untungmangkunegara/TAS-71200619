@@ -1,8 +1,6 @@
 package org.example;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
+import java.sql.*;
+
 public class InsertRecords {
     private Connection connect() {
         // SQLite connection string
@@ -16,13 +14,12 @@ public class InsertRecords {
         return conn;
     }
 
-    public void insert(String name) {
-        String sql = "INSERT INTO WAKTU(waktu) VALUES(?)";
+    public void insert() {
+        String sql = "insert into waktu (waktu) values ('15:00'), ('07:30'), ('08:05'), ('17:35'), ('11:01');";
         try{
             Connection conn = this.connect();
-            PreparedStatement pstmt = conn.prepareStatement(sql);
-            pstmt.setString(1, name);
-            pstmt.executeUpdate();
+            Statement stmt = conn.createStatement();
+            stmt.execute(sql);
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         }

@@ -10,12 +10,16 @@ public class App {
         createNewTable();
 
         InsertRecords app = new InsertRecords();
-        // insert waktu
-        app.insert("15:00");
-        app.insert("07:30");
-        app.insert("08:05");
-        app.insert("17:35");
-        app.insert("11:01");
+        app.insert();
 
+        SudutJam x = new SudutJam();
+        x.updateSudut(15,00);
+        x.updateSudut(7, 30);
+        x.updateSudut(8, 05);
+        x.updateSudut(17, 35);
+        x.updateSudut(11, 01);
+
+        SelectPrint appp = new SelectPrint();
+        appp.selectAll();
     }
 }

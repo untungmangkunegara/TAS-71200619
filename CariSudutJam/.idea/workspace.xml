@@ -42,6 +42,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/SaYa CiNtA KuLiAh/Semester 4/5 Praktikum RPL-BO/TAS-71200619/CariSudutJam/lib/sqlite-jdbc-3.20.1.jar",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.289181"
@@ -52,7 +53,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Maven.CariSudutJam [package]">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="CariSudutJam" />
@@ -60,6 +61,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CariSudutJam [compile]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="compile" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="CariSudutJam [package]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Maven.CariSudutJam [compile]" />
+      <item itemvalue="Maven.CariSudutJam [package]" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -69,7 +125,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655708697937</updated>
-      <workItem from="1655708699542" duration="4698000" />
+      <workItem from="1655708699542" duration="11164000" />
     </task>
     <servers />
   </component>
